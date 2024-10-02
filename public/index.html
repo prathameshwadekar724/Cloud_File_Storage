@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloud File Storage</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Cloud File Storage</h1>
+    </header>
+
+    <div class="container">
+        <form id="uploadForm">
+            <input type="file" id="fileInput" required>
+            <button type="submit">Upload</button>
+        </form>
+        <div id="responseMessage"></div>
+        
+        <h2>Download File</h2>
+        <input type="text" id="fileNameInput" placeholder="Enter file name" required>
+        <button id="downloadButton">Download</button>
+        <div id="downloadLink"></div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Cloud File Storage. All rights reserved.</p>
+    </footer>
+    
+    <script src="app.js"></script>
+</body>
+</html>
